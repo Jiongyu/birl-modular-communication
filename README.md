@@ -39,7 +39,7 @@ sudo pip install canopen
   *3.1 环境配置*
 ```
 mkdir -r ros/modular_robot/src/ && cd ~/ros/modular_robot/src/ 
-git clone https://github.com/Jiongyu/BirlModuleRobot.git
+https://github.com/Jiongyu/birl-modular-communication.git
 sudo echo "source ~/ros/modular_robot/devel/setup.bash">> ~/.bashrc
 source ~/.bashrc
 ```
@@ -47,6 +47,6 @@ source ~/.bashrc
   *3.2 连接通信*
 ```
 rosrun canopen_communication can_prepare.sh
-rosrun canopen_communication c
+rosrun canopen_communication arm5d_test.py
 ```
 
