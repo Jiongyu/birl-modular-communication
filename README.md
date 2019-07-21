@@ -24,6 +24,7 @@ channel = can0" >> /etc/can.conf
 
 ```
 sudo apt-get install can-utils
+
 sudo pip install canopen
 ```
 
@@ -39,8 +40,11 @@ sudo pip install canopen
   *3.1 环境配置*
 ```
 mkdir -r ros/modular_robot/src/ && cd ~/ros/modular_robot/src/ 
-https://github.com/Jiongyu/birl-modular-communication.git
+
+git clone https://github.com/Jiongyu/birl-modular-communication.git
+
 sudo echo "source ~/ros/modular_robot/devel/setup.bash">> ~/.bashrc
+
 source ~/.bashrc
 ```
 
